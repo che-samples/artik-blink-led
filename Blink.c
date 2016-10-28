@@ -8,7 +8,15 @@
 #define INPUT 1
 #define OUTPUT 0
 
-int outputPin = 22;
+
+// You'll need to map outputPin correctly
+// depending on the board model. Artik 10 
+// is the default one:
+// outputPin = 12 for pin [8] on ARTIK 10 
+// outputPin = 38 for the Blue LED on ARTIK 7
+// outputPin = 125 for pin [8] on ARTIK 5
+
+int outputPin = 12;
 
 bool digitalPinMode(int pin, int dir){
   FILE * fd;
