@@ -15,6 +15,8 @@
 // outputPin = 12 for pin [8] on ARTIK 10 
 // outputPin = 38 for the Blue LED on ARTIK 7
 // outputPin = 125 for pin [8] on ARTIK 5
+// Find more info on GPIO mapping:
+// https://developer.artik.io/documentation/developer-guide/gpio/gpio-mapping.html
 
 int outputPin = 12;
 
